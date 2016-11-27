@@ -1,0 +1,57 @@
+
+body {
+  color: #484848;
+  font-family: 'Lato', sans-serif;
+  padding: .45em 2.65em 3em;
+  line-height: 1.5;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-size: 1.8em;
+  border-bottom: 1px dotted;
+  margin: 1em 0;
+}
+.circle {
+  height: 18.750em;
+  width: 18.750em;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid black;
+  margin: 3.125em auto;
+  display: block;
+}
+
+label {
+  display: block;
+  padding: 5px 0;
+  text-decoration: underline;
+}
+
+#myButton,
+#random,
+#reset {
+  display: inline-block;
+}
+
+input {
+  border: 1px solid #dcdcdc;
+  margin: 0 5px 0 0;
+}
+
+button {
+  color: white;
+  background: #508abc;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+input, button {
+  font-size: .85em;
+  padding: .65em 1em;
+  border-radius: .3em;
+  outline: 0;
+}
